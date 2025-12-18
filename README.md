@@ -1,8 +1,8 @@
-# 🤖 Telegram Echo Bot
+# Telegram Echo Bot
 
 A Telegram bot built in Go that echoes various types of messages back to users with feedback collection functionality.
 
-## ✨ Features
+## Features
 
 - **Multi-format Echo**: Replies with the same type of content received:
   - 📝 Text messages
@@ -26,7 +26,7 @@ A Telegram bot built in Go that echoes various types of messages back to users w
   - Forwards feedback to specified admin chat
   - File-based storage for simplicity
 
-## 🏗️ Architecture
+## Architecture
 <pre>
 TelegramEchoBot/
 ├── cmd/
@@ -49,7 +49,7 @@ TelegramEchoBot/
 </pre>
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Go 1.16+
@@ -72,13 +72,13 @@ TelegramEchoBot/
    TELEGRAM_BOT_TOKEN=your_bot_token_here
 5. **Run the bot**
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Language**: Go 1.16+
 - **Telegram API**: `go-telegram-bot-api` v5
 - **Configuration**: `joho/godotenv`
 
-## 🔧 Development
+## Development
 
 ### Project Structure Principles
 - **`cmd/`**: Application entry points
@@ -87,14 +87,14 @@ TelegramEchoBot/
 - **`handlers/`**: Request processing logic
 - **`storage/`**: Data persistence layer
 
-## 🚧 Limitations
+## Limitations
 
 - File-based storage (not suitable for production scale)
 - No database integration
 - Single admin chat for feedback
 - Basic error handling
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Database integration for feedback storage
 - [ ] Webhook support for production deployment
